@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import { Route, Routes, BrowserRouter, Link } from 'react-router'
 
+const RenderExternalLinks = () => {
+
+  //here put the links to Github, LinkedIn, etc...
+}
+
 const RenderHeading = () => {
 
     const headerMessage = "Welcome!"
