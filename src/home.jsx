@@ -25,7 +25,7 @@ const RenderSections = () => {
           <br />
           <Link to="">interests</Link>
           <br />
-          <Link to="">work experience</Link>
+          <Link to="work-exp">work experience</Link>
         </ul>
       </div>
     )
