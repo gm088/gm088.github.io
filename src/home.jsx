@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Route, Routes, BrowserRouter, Link } from 'react-router'
+import { useNavigate } from "react-router";
 
 const RenderExternalLinks = () => {
 
@@ -8,30 +9,40 @@ const RenderExternalLinks = () => {
 
 const RenderHeading = () => {
 
-    const headerMessage = "Welcome!"
+    const headerMessage = "Hello!"
     return(
       <div>
         <h1>{headerMessage}</h1>
+        <p>Welcome to my webpage, made with React + JS</p>
       </div>
     )
   }
 
-const RenderSections = () => {
-  
-    //sections I could have are: guitar stuff, interests, work experience
-    const sections = [ {id: '1', tag: 'guitar stuff', link: '' }, 
-                      {id: '2', tag: 'interests', link: '' },
-                      {id: '3', tag: 'work experience', link: '' } ]
+const hpButtonClickHandler = (link) => {
+  console.log(link)
+
+  return () => {
+    useNavigate(link)
+  }
+
+}
+
+const RenderSections = (props) => {
+
+    //return three buttons
+    let nav = useNavigate()
   
     return(
       <div>
-        <ul>
-          <Link to="guitar">guitar</Link>
-          <br />
-          <Link to="">interests</Link>
-          <br />
-          <Link to="work-exp">work experience</Link>
-        </ul>
+        <button className='hpButton' onClick={ () => {nav('work-exp')} }>
+          Work Experience
+        </button>
+        <button className='hpButton' onClick={ () => {nav('guitar')} }>
+          Interests
+        </button>
+        <button className='hpButton' onClick={ () => {nav('work-exp')} }>
+          Personal Projects
+        </button>
       </div>
     )
 }
@@ -40,8 +51,12 @@ const Home = () => {
 
     return(
         <div>
+            <div>
+              <img className='profPic' src='jjj.jpeg' alt='me' />
+            </div>
+
             <RenderHeading />
-            <RenderSections />
+            <RenderSections clickhandler={hpButtonClickHandler}/>
         </div>
     )
 }
