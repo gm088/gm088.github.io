@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Route, Routes, BrowserRouter, Link } from 'react-router'
 
-//one section for mol dynamics, with pretty pictures
-//one section for current work stuff
 
 const RenderPart = (props) => {
 
     if(!props.wexObj){
-        console.log('not yet')
+        //useEffect runs after first render
         return
     }
 
@@ -28,7 +26,7 @@ const RenderPart = (props) => {
     )
 }
 
-const WorkExp = () => {
+const OtherWork = () => {
     
     const [wex, setWex] = useState([])
 
@@ -52,5 +50,7 @@ const WorkExp = () => {
     )
 }
 
+export default OtherWork
 
-export default WorkExp
+
+

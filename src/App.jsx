@@ -4,6 +4,7 @@ import './App.css'
 import GuitarMain from './guitar'
 import WorkExp from './work_exp'
 import Home from './home'
+import OtherWork from './other_work'
 import { Route, Routes, BrowserRouter, Link } from 'react-router'
 
 const footerClickHander = (link) => {
@@ -46,6 +47,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="guitar" element={<GuitarMain />} />
         <Route path="work-exp" element={<WorkExp />} />
+        <Route path="other-work" element={<OtherWork />} />
       </Routes>
       
       <RenderFooter Clickhandler={footerClickHander} />

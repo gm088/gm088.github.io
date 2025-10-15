@@ -1,0 +1,18 @@
+[
+    
+    {
+    "period": "Jan. 2020 – Nov. 2020",
+    "role": "Master’s Thesis Researcher / Researcher",
+    "description": "Wrote code in Python for the analysis of biomolecule simulations. Contributed to development of tools in Python for analysis of biomolecule simulations",
+    "imgsrc": ["./WE1.png"],
+    "notes": "results published in JCTC: "
+    },
+    {
+    "period": "Jan. 2021 – Present",
+    "role": "PhD researcher / Postdoctoral Researcher",
+    "description": "Adapted and improved existing methods for the computational analysis of high-throughput protein-RNA binding assays. Implemented a deep learning model to investigate DNA sequence features important for gene regulation and silencing. Implemented automated workflows for processing and statistical analysis of high-throughput datasets to uncover mammalian gene expression patterns and Markov state modelling to estimate kinetic parameters of gene expression.",
+    "imgsrc": ["./WE2.png"],
+    "notes": ""
+    }
+
+]
