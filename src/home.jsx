@@ -8,7 +8,7 @@ const RenderHeading = () => {
     return(
       <div>
         <h1>{headerMessage}</h1>
-        <p>Welcome to my webpage, built with React + JS (source code <a>here</a>)</p>
+        <p>Welcome to my webpage, which I built with JavaScript, using the React framework (source code <a>here</a>)</p>
       </div>
     )
   }
@@ -23,7 +23,7 @@ const RenderSections = (props) => {
         <button className='hpButton' onClick={ () => {nav('work-exp')} }>
           Work Experience
         </button>
-        <button className='hpButton' onClick={ () => {nav('guitar')} }>
+        <button className='hpButton' onClick={ () => {nav('interests')} }>
           Interests
         </button>
         <button className='hpButton' onClick={ () => {nav('other-work')} }>
@@ -43,6 +43,8 @@ const Home = () => {
 
             <RenderHeading />
             <RenderSections />
+
+            <p>Here is my motherfucking CV</p>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import './App.css'
-import GuitarMain from './guitar'
+import InterestsMain from './interests'
 import WorkExp from './work_exp'
 import Home from './home'
 import OtherWork from './other_work'
@@ -45,7 +45,7 @@ const App = () => {
     <div>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="guitar" element={<GuitarMain />} />
+        <Route path="interests" element={<InterestsMain />} />
         <Route path="work-exp" element={<WorkExp />} />
         <Route path="other-work" element={<OtherWork />} />
       </Routes>

@@ -1,0 +1,36 @@
+[
+    
+    {
+    "period": "Jan. 2020 – Nov. 2020",
+    "role": "Master’s Thesis Researcher / Researcher",
+    "description": "For my master's, I worked in the Lab of Dr. Edina Rosta. It was my first foray into computational sciences and I thoroughly enjoyed it. I Wrote code in Python for the analysis of biomolecule simulations. Specifically, we investigated protein-ligand unbinding using Molecular dynamics simulations. XXXXThe work has since been published in JCTC:",
+    "images": [
+        {
+            "src": "./WE1.png",
+            "description" : "the simulated system, complete with the membrane. GPCR with bound ligand."
+        },
+        {
+            "src": "./WE1.png",
+            "description" : "The idea behind the simulations: inter-atomic distances were selected for tracking and analysis. These would be used to estimate the energy of the interaction."
+        }
+    ],
+    "notes": ""
+    },
+    {
+    "period": "Jan. 2021 – Present",
+    "role": "PhD researcher / Postdoctoral Researcher",
+    "description": "I did my PhD in the lab of Gioacchino Natoli, in the European Institute of Oncology, in Milan. Our work was focused on transcription regulation in higher eukaryotes. As a dry lab scientist, this involved building end-to-end pipelines for data processing and subsequent analysis, for which I wrote custom scripts in bash, R and python. XXXXHowever, my work didn't stop there. I read papers and discussed science extensively with my colleagues in order to design smart, targeted experiments that would give us the answers we need.",
+    "images": [
+        {
+            "src": "./WE2.png",
+            "description" : "your mom"
+        },
+        {
+            "src": "./WE1.png",
+            "description" : "your mom"
+        }
+    ],
+    "notes": ""
+    }
+
+]

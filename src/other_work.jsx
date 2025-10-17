@@ -9,14 +9,12 @@ const RenderPart = (props) => {
         return
     }
 
-    let {period, role, description, imgsrc, notes} = props.wexObj
+    let {title, description, imgsrc, notes} = props.wexObj
     //console.log(description)
 
     return(
         <div>
-            <h2>{role}</h2>
-            <h3>{period}</h3>
-
+            <h2>{title}</h2>
             <p>{description}</p>
 
             {imgsrc.map( el => <img src={el} alt="..." /> )}
@@ -30,8 +28,9 @@ const OtherWork = () => {
     
     const [wex, setWex] = useState([])
 
+    //get the metadata from the json file
     useEffect( () => {
-        fetch('src/work_ex.json')
+        fetch('src/data/other_work.json')
         .then(res => res.json())
         .then(data => setWex(data))
         .catch(err => console.log(err))
