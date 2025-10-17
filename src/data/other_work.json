@@ -11,6 +11,13 @@
     "description": "messageboard",
     "imgsrc": ["./WE2.png"],
     "notes": ""
+    },
+    {
+    "title": "This Website",
+    "description": "This website is a small project I decided to work on to test my frontend development skills. I have been following a great full-stack web dev course offered by the University of Helsinki, which covers frontend development using JavaScript and the React library, backend development using express Node.js, and more. I am still working on it, but I have covered enough frontend material to start building web apps. ",
+    "imgsrc": ["./WE2.png"],
+    "notes": ""
     }
+
 
 ]
