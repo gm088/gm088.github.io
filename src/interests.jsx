@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Route, Routes, BrowserRouter, Link } from 'react-router'
+import { parseDescription } from './work_exp'
 
 const RenderPart = (props) => {
 
@@ -14,11 +15,12 @@ const RenderPart = (props) => {
     const embeddedVidLinks = ytLinks.map(link => {
         return `https://www.youtube.com/embed/${link}`
     })
+    const parsedDescr = parseDescription(description)
 
     return(
         <div>
             <h2>{title}</h2>
-            <p>{description}</p>
+            {parsedDescr.map( el => <p>{el}</p> )}
 
             {/* imgsrc.map( el => <img src={el} alt="..." /> ) */}
             {embeddedVidLinks.map( link => 

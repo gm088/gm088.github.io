@@ -14,7 +14,7 @@ const RenderPart = (props) => {
         return
     }
 
-    let {period, role, description, images, notes} = props.wexObj
+    let {period, role, description, images, notes, links} = props.wexObj
     //console.log(description)
     const parsedDescr = parseDescription(description)
 
@@ -23,9 +23,12 @@ const RenderPart = (props) => {
             <h2>{role}</h2>
             <h3>{period}</h3>
 
-            {parsedDescr.map( el => 
+            {parsedDescr.map( el => <p>{el}</p> )}
+
+            {/* for now put the links like this */}
+            {links.map( el => 
             <>
-            <p>{el}</p>
+            <a href={el.src} target="_blank"> {el.label} </a>
             <br />
             </>
             )}
@@ -33,7 +36,7 @@ const RenderPart = (props) => {
             {images.map( el => 
             <>
             <p className="caption">Below: {el.description}</p>
-            <img src={el.src} alt="..." /> 
+            <img src={el.src} alt="..." height="420" /> 
             </>
             )}
             
@@ -53,7 +56,7 @@ const WorkExp = () => {
         .then(data => setWex(data))
         .catch(err => console.log(err))
     }, [])
-    //console.log(wex)
+    console.log(wex)
 
     return(
         <div>
@@ -67,5 +70,5 @@ const WorkExp = () => {
     )
 }
 
-
+export {parseDescription}
 export default WorkExp

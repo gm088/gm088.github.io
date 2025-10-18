@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Route, Routes, BrowserRouter, Link } from 'react-router'
-
+import { parseDescription } from './work_exp'
 
 const RenderPart = (props) => {
 
@@ -9,15 +9,29 @@ const RenderPart = (props) => {
         return
     }
 
-    let {title, description, imgsrc, notes} = props.wexObj
+    let {title, description, images, notes, links} = props.wexObj
     //console.log(description)
+    const parsedDescr = parseDescription(description)
 
     return(
         <div>
             <h2>{title}</h2>
-            <p>{description}</p>
+            {parsedDescr.map( el => <p>{el}</p> )}
 
-            {imgsrc.map( el => <img src={el} alt="..." /> )}
+            {links.map( el => 
+            <>
+            <a href={el.src} target="_blank"> {el.label} </a>
+            <br />
+            </>
+            )}
+
+            {images.map( el => 
+            <>
+            <p className="caption">Below: {el.description}</p>
+            <img src={el.src} alt="..." height="320" /> 
+            </>
+            )}
+
             <p>{notes}</p>
 
         </div>
@@ -40,9 +54,9 @@ const OtherWork = () => {
     return(
         <div>
             <Link to='/'>Home</Link>
-            <RenderPart wexObj={wex[0]} />
+            <RenderPart wexObj={wex[2]} />
             <hr />
-            <RenderPart wexObj={wex[1]} />
+            <RenderPart wexObj={wex[0]} />
 
             <Link to="/">Back to Homepage</Link>
         </div>

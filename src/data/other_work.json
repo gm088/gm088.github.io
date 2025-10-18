@@ -3,20 +3,52 @@
     {
     "title": "Sequence model",
     "description": "sequence model",
-    "imgsrc": ["./seqmodel.png"],
-    "notes": "details coming soon"
+    "images": [
+        {
+            "src": "./seqmodel.png",
+            "description" : "A snapshot of results from the model."
+        }
+    ],
+    "notes": "details coming soon",
+    "links": [
+        {
+            "src": "",
+            "label": ""
+        }
+    ]
     },
     {
     "title": "messageboard?",
     "description": "messageboard",
-    "imgsrc": ["./WE2.png"],
-    "notes": ""
+    "images": [],
+    "notes": "",
+    "links": [
+        {
+            "src": "",
+            "label": ""
+        }
+    ]
     },
     {
-    "title": "This Website",
-    "description": "This website is a small project I decided to work on to test my frontend development skills. I have been following a great full-stack web dev course offered by the University of Helsinki, which covers frontend development using JavaScript and the React library, backend development using express Node.js, and more. I am still working on it, but I have covered enough frontend material to start building web apps. ",
-    "imgsrc": ["./WE2.png"],
-    "notes": ""
+    "title": "This Website!",
+    "description": "This website is a small project I decided to work on to test my frontend web development skills. I have been following a great full-stack web dev course offered by the University of Helsinki (link below), which covers frontend development using JavaScript and the React library, backend development using express Node.js, and more. I am still working on it, but I have covered enough frontend material to start building web apps.",
+    "images": [
+        {
+            "src": "./reactjs.png",
+            "description" : ""
+        }
+    ],
+    "notes": "",
+    "links": [
+        {
+            "src": "https://fullstackopen.com/en/",
+            "label": "This is the course that I am following"
+        },
+        {
+            "src": "https://github.com/gm088/mysite",
+            "label": "Here is the source code for this website"
+        }
+    ]
     }
 
 

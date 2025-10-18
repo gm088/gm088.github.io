@@ -8,7 +8,8 @@ const RenderHeading = () => {
     return(
       <div>
         <h1>{headerMessage}</h1>
-        <p>Welcome to my webpage, which I built with JavaScript, using the React framework (source code <a>here</a>)</p>
+        <p>Welcome to my webpage, which I built with JavaScript, 
+            using the React framework (source code <a href="https://github.com/gm088/mysite">here</a>)</p>
       </div>
     )
   }
@@ -44,7 +45,7 @@ const Home = () => {
             <RenderHeading />
             <RenderSections />
 
-            <p>Here is my motherfucking CV</p>
+            <p>link to CV</p>
         </div>
     )
 }

@@ -2,9 +2,9 @@
     
     {
     "title": "Guitar",
-    "description": "I have been playing the guitar ever since I was 14 years old, and it is one of my greatest passions. I am a die-hard fan of the progressive rock group Dream Theater, and I have meticulously studied their music over the years, particularly their guitar work. I like to think that I'm pretty good at playing the guitar - below are a couple of guitar covers I'm particulary proud of. Of course, there's always room for improvement, and I am always practicing and mixing to get better technique and sound.",
+    "description": "I have been playing the guitar ever since I was 14 years old, and it is one of my greatest passions. I am a die-hard fan of the progressive rock group Dream Theater, and I have meticulously studied their music over the years, particularly their guitar work. XXXXI like to think that I'm pretty good at playing the guitar - below are a couple of guitar covers I'm particulary proud of. Of course, there's always room for improvement, and I am always practicing and mixing to get better technique and sound.",
     "imgsrc": ["./jp.jpg"],
-    "notes": [{"name": "details coming soon", "description": ""}],
+    "notes": [],
     "ytLinks": ["_cUE6Ya5oXY", "IPGmO2rjrZ0"]
     },
     {
@@ -14,7 +14,7 @@
     "notes": [
         {
         "name": "Dulce et decorum est - Wilfred Owen",
-        "description" : "A chilling anti-war poem written by Wilfred Owen, a young British poet who died before the end of WWI. It described graphically the death of one of his comrades brought about by mustard gas."
+        "description" : "A chilling anti-war poem written by Wilfred Owen, a British poet who died before the end of WWI. It described graphically the death of one of his comrades brought about by mustard gas."
         },
         {
         "name": "Stoner - John Williams",
