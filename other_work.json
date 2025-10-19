@@ -1,0 +1,55 @@
+[
+    
+    {
+    "title": "Sequence model",
+    "description": "Given two groups of biological sequences that are subject to different regulatory regimes, what sets them apart? This was one of the questions of my PhD. One possibility is the underlying DNA sequence. In this mini-project, I use TensorFlow to create a convolutional NN model using a set of sequences from each of the two classes. Grid search to find optimal hyperparameters. XXXXLastly, the Integrated gradients method is used to extract feature importances (here, the importance of individual sequence positions). The inputs to the model are DNA sequences from the two groups mentioned earlier, which have been one-hot encoded.",
+    "images": [
+        {
+            "src": "./seqmodel.png",
+            "description" : "IG attributions (feature importances) of each nucleotide position in one DNA sequence."
+        }
+    ],
+    "notes": "details coming soon",
+    "links": [
+        {
+            "src": "https://github.com/gm088/sequence_model",
+            "label": "Github link to the code"
+        }
+    ]
+    },
+    {
+    "title": "messageboard?",
+    "description": "messageboard",
+    "images": [],
+    "notes": "",
+    "links": [
+        {
+            "src": "",
+            "label": ""
+        }
+    ]
+    },
+    {
+    "title": "This Website!",
+    "description": "This website is a small project I decided to work on to test my frontend web development skills. I have been following a great full-stack web dev course offered by the University of Helsinki (link below), which covers frontend development using JavaScript and the React library, backend development using express Node.js, and more. I am still working on it, but I have covered enough frontend material to start building web apps. XXXXThe raw data (the text, links, or images you see) are stored in json files, which are then rendered into html elements using React components, which is what you see on the browser.",
+    "images": [
+        {
+            "src": "./reactjs.png",
+            "description" : ""
+        }
+    ],
+    "notes": "",
+    "links": [
+        {
+            "src": "https://fullstackopen.com/en/",
+            "label": "This is the course that I am following"
+        },
+        {
+            "src": "https://github.com/gm088/mysite",
+            "label": "Here is the source code for this website"
+        }
+    ]
+    }
+
+
+]
