@@ -8,11 +8,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html, 
+body, 
+#background { 
+  width: 100vw;
+  min-height: 100vh;
+  background-color: beige;
+}
+
+.home {
+  background-color: rgb(224, 224, 167);
+  padding: 10px;
+}
+
 .profPic {
   border-radius: 8px;
   width: 150px;
   text-align: left;
-  float: none;
+  float: inline-start;
+  padding: 10px;
 }
 
 .imgbutton{
@@ -24,8 +38,10 @@
   font-weight: bold;
   color: black;
   cursor: pointer;
+  margin-inline: 5px;
   padding-inline: 5;
   padding-block: 5;
+  vertical-align: middle;
 }
 
 .imgbutton:hover {
@@ -33,12 +49,18 @@
 }
 
 .footer {
-  background-color: rgb(168, 166, 166);
   border-top: rgb(0,0,0);
-  border-top-width: 1px;
+  position: absolute;
+  vertical-align: middle;
+  bottom: 0;
+  
+}
+
+.contactPiece {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  right: 0;
+  padding-right: 10px;
 }
 
 .hpButton {

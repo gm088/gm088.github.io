@@ -50,10 +50,11 @@ const App = () => {
         <Route path="other-work" element={<OtherWork />} />
       </Routes>
       
-      <RenderFooter Clickhandler={footerClickHander} />
+      {/* <RenderFooter Clickhandler={footerClickHander} /> */}
     </div>
   )
 }
 
+export {footerClickHander}
 export default App
 
