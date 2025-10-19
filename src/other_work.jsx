@@ -44,7 +44,7 @@ const OtherWork = () => {
 
     //get the metadata from the json file
     useEffect( () => {
-        fetch('src/data/other_work.json')
+        fetch('other_work.json')
         .then(res => res.json())
         .then(data => setWex(data))
         .catch(err => console.log(err))

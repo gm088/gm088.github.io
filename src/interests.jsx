@@ -50,7 +50,7 @@ const InterestsMain = () => {
 
     //get the metadata from the json file
     useEffect( () => {
-        fetch('src/data/interests.json')
+        fetch('interests.json')
         .then(res => res.json())
         .then(data => setInts(data))
         .catch(err => console.log(err))

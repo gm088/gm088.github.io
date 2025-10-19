@@ -51,7 +51,7 @@ const WorkExp = () => {
     const [wex, setWex] = useState([])
 
     useEffect( () => {
-        fetch('src/data/work_ex.json')
+        fetch('work_ex.json')
         .then(res => res.json())
         .then(data => setWex(data))
         .catch(err => console.log(err))
