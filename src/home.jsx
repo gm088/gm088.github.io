@@ -43,7 +43,7 @@ const RenderHeading = () => {
         </p>
         <p>Welcome to my webpage, which I built with JavaScript, 
             using the React framework (source code
-             <a href="https://github.com/gm088/mysite"> here</a>).
+             <a href="https://github.com/gm088/gm088.github.io/tree/main"> here</a>).
         </p>
 
         <p>I plan to continue developing this page by continually updating the 
