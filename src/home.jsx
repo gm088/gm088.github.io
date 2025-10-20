@@ -85,6 +85,7 @@ const Home = () => {
             <br />
             <RenderSections />
 
+            <br />
             <ShowOther Clickhandler={footerClickHander} />
 
         </div>

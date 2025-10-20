@@ -50,14 +50,13 @@ body,
 
 .footer {
   border-top: rgb(0,0,0);
-  position: absolute;
   vertical-align: middle;
   bottom: 0;
   
 }
 
 .contactPiece {
-  position: fixed;
+  text-align: right;
   bottom: 0;
   right: 0;
   padding-right: 10px;
