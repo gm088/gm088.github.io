@@ -29,6 +29,13 @@ body,
   padding: 10px;
 }
 
+.classPic {
+  border-radius: 8px;
+  width: auto;
+  text-align: left;
+  padding: 10px;
+}
+
 .imgbutton{
   align-items: baseline;
   width: 50px;

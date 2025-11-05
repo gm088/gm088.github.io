@@ -19,7 +19,7 @@ const RenderPart = (props) => {
     const parsedDescr = parseDescription(description)
 
     return(
-        <div>
+        <div className="home">
             <h2>{role}</h2>
             <h3>{period}</h3>
 
@@ -36,7 +36,7 @@ const RenderPart = (props) => {
             {images.map( el => 
             <>
             <p className="caption">Below: {el.description}</p>
-            <img src={el.src} alt="..." height="420" /> 
+            <img className='classPic' src={el.src} alt="..." height="420" /> 
             </>
             )}
             
@@ -51,7 +51,7 @@ const WorkExp = () => {
     const [wex, setWex] = useState([])
 
     useEffect( () => {
-        fetch('work_ex.json')
+        fetch('/work_ex.json')
         .then(res => res.json())
         .then(data => setWex(data))
         .catch(err => console.log(err))

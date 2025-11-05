@@ -6,11 +6,11 @@
     "description": "For my master's, I worked in the Lab of Dr. Edina Rosta. It was my first foray into computational sciences and I thoroughly enjoyed it. I Wrote code in Python for the analysis of biomolecule simulations. Specifically, we investigated protein-ligand unbinding using Molecular dynamics simulations. XXXXMy work was focused on the drug tiotropium, a small molecule antagonist of the Muscarinic 3 receptor. It is a very effective drug for asthma due to its very long half-life; however the molecular basis for this was not known. We used simulations to find the molecular basis for tiotropium's long residence time on the receptor. Briefly, there are a set of amino acids in the main binding pocket, as well as some amino acids at the 'lid' of the receptor, that form interactions with the drug and create a large energy barrier that must be overcome to achieve unbinding. XXXXThe work has since been published in JCTC:",
     "images": [
         {
-            "src": "./ttp1.png",
+            "src": "/ttp1.png",
             "description" : "The idea behind the simulations: inter-atomic distances were selected for tracking and analysis. These would be used to estimate the energy of the interaction."
         },
         {
-            "src": "./ttp3.png",
+            "src": "/ttp3.png",
             "description" : "Unbinding pathway refinement for tiotropium, from orthosteric binding site to extracellular vestibule. 'window' represents 2 nanoseconds of simulation such that for red to blue encompasses 400 nanoseconds."
         }
     ],
@@ -32,7 +32,7 @@
     "description": "I did my PhD in the lab of Gioacchino Natoli, in the European Institute of Oncology, in Milan. Our work was focused on transcription regulation in higher eukaryotes. As a dry lab scientist, this involved building end-to-end pipelines for data processing and subsequent analysis, for which I wrote custom scripts in bash, R and python. XXXXHowever, my work didn't stop there. I read papers and discussed science extensively with my colleagues in order to design smart, targeted experiments that would give us the answers we need. XXXX What was my PhD about? I will put it briefly: about 2% of our genome contains the information that is transcribed into RNA that codes for proteins. However, a much larger fraction of the genome has the potential to be transcribed, but is actively suppressed as it could be detrimental to the cell. We studied the mechanism of this widespread transcription suppression. I can't reveal much or show pretty pictures since the work is not published yet (currently under review). XXXXSome other exciting things I got to do during my PhD was to estimate kinetic parameters of gene transcription, for which I used markov-state modelling. The end result is shown in the plots below. We estimated the speed of transcription, and showed that transcription of DNA coding for proteins is more efficient than for DNA that does not.",
     "images": [
         {
-            "src": "./drb2.png",
+            "src": "/drb2.png",
             "description" : "Each row of these heatmaps represents a stretch of DNA. Those on the left are protein-coding stretches of DNA, and those are right are not protein-coding (they are, however, transcribed). They are all aligned at the point where transcription begins. The amount of the stretch transcribed in 5, 10 and 15 minutes is shown in yellow, orange, and red, respectively."
         }
     ],
